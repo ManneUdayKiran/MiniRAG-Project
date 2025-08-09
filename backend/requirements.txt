@@ -1,3 +1,13 @@
+
 fastapi
 uvicorn
 python-multipart
+requests
+beautifulsoup4
+PyPDF2
+python-docx
+sentence-transformers
+faiss-cpu
+pytesseract
+pdf2image
+python-dotenv
