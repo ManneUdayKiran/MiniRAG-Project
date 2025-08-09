@@ -10,12 +10,12 @@ from typing import List
 
 
 
-from .file_utils import save_uploaded_files, clear_uploads_and_embeddings_if_empty
-from .doc_parser import extract_text_from_file
-from .text_splitter import split_text
-from .embedding_store import embedding_store
-from .llm_client import llm_client
-from .kb_index import kb_index
+from file_utils import save_uploaded_files, clear_uploads_and_embeddings_if_empty
+from doc_parser import extract_text_from_file
+from text_splitter import split_text
+from embedding_store import embedding_store
+from llm_client import llm_client
+from kb_index import kb_index
 
 
 app = FastAPI()
